@@ -12,3 +12,59 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: #e9e9e9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+p {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+  width: 1728px;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.navigation-texts {
+  display: flex;
+  display: flex;
+  padding: 20px 30px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 32px;
+  background: #fff;
+}
+
+.navigation-logos {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
+
+.mail {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
